@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+html {
+  padding: 30px;
+}
+
+h1 {
+  padding: 20px 0;
+}
+
+button {
+  font-size: 1.2rem;
+}
+
+.galeria {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.imgPreview {
+  aspectRatio: 1.62;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+a.enlace {
+  display: inline-block;
+  padding: 6px;
+  margin: 4px;
+  border: solid 1px lightblue;
+  border-radius: 5px;
+  background-color: azure;
+  text-decoration: none;
+}
+
+a.enlace:hover {
+  box-shadow: 0 0 2px gray;
+}
